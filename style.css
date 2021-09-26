@@ -1,0 +1,17 @@
+.img-codoacodo{
+    max-width: 8rem;
+    margin-left: 3rem;
+}
+
+.navbar-nav{
+    margin-right: 5rem;
+    font-size: 1.1rem;
+}
+
+.buy{
+    color: rgb(9, 185, 9) !important;
+}
+
+.navbar-dark{
+    background: #353a40 !important;
+}
