@@ -1,3 +1,4 @@
+
 .img-codoacodo{
     max-width: 8rem;
     margin-left: 3rem;
@@ -14,4 +15,49 @@
 
 .navbar-dark{
     background: #353a40 !important;
+}
+
+header{
+    height: 90vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/hawaii.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.maintext{
+    margin-top: 30vh;
+    margin-right: 18vh;
+}
+.maintext h1, p{
+   text-align: right;
+   color: white;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+
+.maintext h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.maintext p{
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.header-buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.comprartickets-btn{
+    margin-left: 10px;
+    background-color: #29a744;
 }
