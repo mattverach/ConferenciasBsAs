@@ -27,7 +27,7 @@ header{
 }
 
 .maintext{
-    margin-top: 20%;
+    margin-top: 10%;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -61,18 +61,6 @@ header{
 .comprartickets-btn{
     margin-left: 10px;
     background-color: #29a744;
-}
-
-.card-group{
-   display: flex;
-   align-items: flex-start;
-   justify-content: space-evenly;
-   margin-left: 10%;
-   margin-right: 10%;
-}
-
-.mid-card, .first-card{
-    margin: 0 30px;
 }
 
 .card-text{
@@ -114,7 +102,10 @@ header{
 }
 
 .card{
-    border: 1px solid rgba(0,0,0,.125) !important
+    border: 1px solid rgba(0,0,0,.125) !important;
+    margin-bottom: 10px;
+    min-width: 25%;
+    padding: 0;
 }
 
 .container{
@@ -156,4 +147,11 @@ header{
 .container-text button{
     margin-left: 10px;
     font-size: 0.8rem;
+}
+
+.cards-container {
+    min-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
