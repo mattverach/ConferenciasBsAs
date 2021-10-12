@@ -35,10 +35,8 @@ header{
     margin-top: 10%;
     margin-right: 10%;
     margin-left: 10%;
-    ;
 }
 .maintext h1, p{
-   text-align: right;
    color: white;
    display: flex;
    align-items: flex-end;
@@ -199,8 +197,25 @@ header{
 }
 
 .footer-container{
-    background-color: linear-gradient(#1d5271,#1d5271);
-    overflow: hidden;
+    background-image: linear-gradient(#1d5271,#1d5271);
     bottom: 0;
     width: 100%;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 2rem
+
+
+    
+}
+
