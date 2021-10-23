@@ -219,3 +219,111 @@ header{
     
 }
 
+#navbartitle{
+    margin-left: 2rem;
+}
+
+#cardticketcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-width: 60%;
+}
+
+.cardticket {
+    display:inline-block;
+    margin-top: 1.2rem;
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    min-width: 20%;
+}
+
+.middlecardticket {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+
+
+.cardtickettext h5{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtickettext p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtickettext h5 {
+    font-weight: 550;
+}
+
+.cardsubtitle {
+    font-size: 1rem;;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.letrachicaticket {
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.ventaticket h2,h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ventaticket h2{
+    font-size: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.formtickets{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.formbuttonsxd {
+    margin-left: 0.1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.individualbtn1{
+    max-width: 47.6%;
+    margin-right: 3.2%;
+
+}
+
+.individualbtn2{
+    max-width: 47.6%
+    
+}
+
+.inputline2{
+    margin-top: 1rem;
+}
+
+.inputline3{
+    margin-top: 0.4rem;
+}
+
+.formalert{
+    margin-top: 1rem; 
+}
+
