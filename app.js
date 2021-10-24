@@ -1,7 +1,6 @@
 let valorTicket = 200;
 let alertEl = document.getElementById("alert-el")
 let alertDiv = document.getElementById("alertcont")
-document.getElementById("inputcantidad").value = 1
 
 function resumen() {
     let cantidadEl = Math.ceil(document.getElementById("inputcantidad").value)
