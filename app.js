@@ -1,6 +1,7 @@
 let valorTicket = 200;
 let alertEl = document.getElementById("alert-el")
 let alertDiv = document.getElementById("alertcont")
+document.getElementById("inputcantidad").value = 1
 
 function resumen() {
     let cantidadEl = Math.ceil(document.getElementById("inputcantidad").value)
@@ -19,8 +20,6 @@ function resumen() {
         let text = document.createTextNode("Cantidad máxima de entradas por persona: 10");
         tag.appendChild(text);
         alertDiv.appendChild(tag);
-    } else {
-        alertDiv.removeChild(alertDiv.childNodes[2])
     }
 
     if (categoriaEl == "estudiante") {
