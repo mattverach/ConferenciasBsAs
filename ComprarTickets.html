@@ -12,7 +12,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="navbartitle">Conf BsAs</a>
+        <a class="navbar-brand" href="./index.html" id="navbartitle">Conf BsAs</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -22,16 +22,16 @@
                 <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#oradores">Los oradores</a>
+                <a class="nav-link" href="./index.html#oradores">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#horayfecha">El lugar y la fecha</a>
+                <a class="nav-link" href="./index.html#horayfecha">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#convorador">Conviértete en orador</a>
+                <a class="nav-link" href="./index.html#convorador">Conviértete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link buy" href="#">Comprar tickets</a>
+                <a class="nav-link buy" href="#formcomprar">Comprar tickets</a>
               </li>
             </ul>
           </div>
@@ -70,7 +70,7 @@
     </div>
     
     <div class="formtickets sm-12">
-    <form onsubmit="return false">
+    <form onsubmit="return false" id="formcomprar">
       <div class="row">
         <div class="col">
           <input type="text" class="form-control" placeholder="Nombre" required>
@@ -103,7 +103,7 @@
       </div>
     </div>
       <div class="form-group row formbuttonsxd" >
-      <button type="button" class="btn btn-success col individualbtn1" onclick="borrar()">Borrar</button>
+      <button type="reset" class="btn btn-success col individualbtn1" onclick="borrar()">Borrar</button>
       <button type="submit" class="btn btn-success col individualbtn2" onclick="resumen()">Resumen</button>
     </div>
     </form>
